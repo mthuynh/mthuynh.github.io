@@ -1,711 +1,1282 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="" />
+		<meta name="author" content="" />
 
-<head>
+		<title>Michael Huynh</title>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+		<link rel="icon" type="image/png" href="img/favicon.png" />
 
-    <title>Michael Huynh</title>
+		<!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: https://bootswatch.com/flatly/ -->
+		<link href="css/bootstrap.css" rel="stylesheet" />
 
-    <link rel="icon" type="image/png" href="img/favicon.png" />
+		<!-- Custom CSS -->
+		<link href="css/style.css" rel="stylesheet" />
 
-    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: https://bootswatch.com/flatly/ -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+		<!-- Custom Fonts -->
+		<link
+			href="font-awesome/css/font-awesome.min.css"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Kaushan+Script"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+			rel="stylesheet"
+			type="text/css"
+		/>
 
-    <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
 
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
-        type="text/css">
+	<body id="page-top" class="index">
+		<!-- Navigation -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header page-scroll">
+					<button
+						type="button"
+						class="navbar-toggle"
+						data-toggle="collapse"
+						data-target="#bs-example-navbar-collapse-1"
+					>
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#page-top">mh</a>
+				</div>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="hidden">
+							<a href="#page-top"></a>
+						</li>
+						<li class="page-scroll">
+							<a href="#portfolio">Portfolio</a>
+						</li>
+						<li class="page-scroll">
+							<a href="#projects">Projects</a>
+						</li>
+						<li class="page-scroll">
+							<a href="#resume">Resume</a>
+						</li>
+						<li class="page-scroll">
+							<a href="#tech-skills">Skills</a>
+						</li>
+						<li class="page-scroll">
+							<a href="#about">About</a>
+						</li>
+						<li class="page-scroll">
+							<a href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container-fluid -->
+		</nav>
 
-</head>
+		<!-- Header -->
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<img
+							class="img-responsive"
+							src="img/profile-pic2.png"
+							alt="Mike Huynh"
+						/>
+						<div class="intro-text">
+							<span class="name">Michael Huynh</span>
+							<hr class="star-primary" />
+							<span class="skills">Web Developer</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
 
-<body id="page-top" class="index">
+		<!-- Portfolio Grid Section -->
+		<section class="success" id="portfolio">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h2>Portfolio</h2>
+						<hr class="star-primary" />
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-4 portfolio-item">
+						<a
+							href="#portfolioModalOculus"
+							class="portfolio-link"
+							data-toggle="modal"
+						>
+							<div class="caption">
+								<div class="caption-content">
+									<i class="fa fa-search-plus fa-3x"></i>
+								</div>
+							</div>
+							<img
+								src="img/portfolio/oculus-home.jpg"
+								class="img-responsive"
+								alt="Oculus - Facebook"
+							/>
+						</a>
+					</div>
+					<div class="col-sm-4 portfolio-item">
+						<a
+							href="#portfolioModalFbDev"
+							class="portfolio-link"
+							data-toggle="modal"
+						>
+							<div class="caption">
+								<div class="caption-content">
+									<i class="fa fa-search-plus fa-3x"></i>
+								</div>
+							</div>
+							<img
+								src="img/portfolio/dfc-home.jpg"
+								class="img-responsive"
+								alt="Facebook for Developers"
+							/>
+						</a>
+					</div>
+					<div class="col-sm-4 portfolio-item">
+						<a
+							href="#portfolioModalSparkAr"
+							class="portfolio-link"
+							data-toggle="modal"
+						>
+							<div class="caption">
+								<div class="caption-content">
+									<i class="fa fa-search-plus fa-3x"></i>
+								</div>
+							</div>
+							<img
+								src="img/portfolio/spark-home.jpg"
+								class="img-responsive"
+								alt="Spark AR Studio - Facebook"
+							/>
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-4 portfolio-item">
+						<a
+							href="#portfolioModalFbAi"
+							class="portfolio-link"
+							data-toggle="modal"
+						>
+							<div class="caption">
+								<div class="caption-content">
+									<i class="fa fa-search-plus fa-3x"></i>
+								</div>
+							</div>
+							<img
+								src="img/portfolio/fbai-home.jpg"
+								class="img-responsive"
+								alt="Facebook AI"
+							/>
+						</a>
+					</div>
+					<div class="col-sm-4 portfolio-item">
+						<a
+							href="#portfolioModalArt"
+							class="portfolio-link"
+							data-toggle="modal"
+						>
+							<div class="caption">
+								<div class="caption-content">
+									<i class="fa fa-search-plus fa-3x"></i>
+								</div>
+							</div>
+							<img
+								src="img/portfolio/art-home.jpg"
+								class="img-responsive"
+								alt="Art.com"
+							/>
+						</a>
+					</div>
+					<div class="col-sm-4 portfolio-item">
+						<a
+							href="#portfolioModalWac"
+							class="portfolio-link"
+							data-toggle="modal"
+						>
+							<div class="caption">
+								<div class="caption-content">
+									<i class="fa fa-search-plus fa-3x"></i>
+								</div>
+							</div>
+							<img
+								src="img/portfolio/wac-home.jpg"
+								class="img-responsive"
+								alt="WorkspaceArt"
+							/>
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-4 portfolio-item">
+						<a
+							href="#portfolioModalApc"
+							class="portfolio-link"
+							data-toggle="modal"
+						>
+							<div class="caption">
+								<div class="caption-content">
+									<i class="fa fa-search-plus fa-3x"></i>
+								</div>
+							</div>
+							<img
+								src="img/portfolio/apc-home.jpg"
+								class="img-responsive"
+								alt="AllPosters.com"
+							/>
+						</a>
+					</div>
+					<div class="col-sm-4 portfolio-item">
+						<a
+							href="#portfolioModalUsf"
+							class="portfolio-link"
+							data-toggle="modal"
+						>
+							<div class="caption">
+								<div class="caption-content">
+									<i class="fa fa-search-plus fa-3x"></i>
+								</div>
+							</div>
+							<img
+								src="img/portfolio/usf-home.jpg"
+								class="img-responsive"
+								alt="USF"
+							/>
+						</a>
+					</div>
+					<div class="col-sm-4 portfolio-item">
+						<a
+							href="#portfolioModalTitleNine"
+							class="portfolio-link"
+							data-toggle="modal"
+						>
+							<div class="caption">
+								<div class="caption-content">
+									<i class="fa fa-search-plus fa-3x"></i>
+								</div>
+							</div>
+							<img
+								src="img/portfolio/titlenine-home.jpg"
+								class="img-responsive"
+								alt="Title Nine"
+							/>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#page-top">mh</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#projects">Projects</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#resume">Resume</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#tech-skills">Skills</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile-pic2.png" alt="Mike Huynh">
-                    <div class="intro-text">
-                        <span class="name">Michael Huynh</span>
-                        <hr class="star-primary">
-                        <span class="skills">Web Developer</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- Portfolio Grid Section -->
-    <section class="success" id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/dfc-home.jpg" class="img-responsive" alt="Facebook for Developers">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/spark-home.jpg" class="img-responsive" alt="Spark AR Studio - Facebook">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/art-home.jpg" class="img-responsive" alt="Art.com">
-                    </a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/wac-home.jpg" class="img-responsive" alt="WorkspaceArt">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/usf-home.jpg" class="img-responsive" alt="USF">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/titlenine-home.jpg" class="img-responsive" alt="Title Nine">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Projects</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul>
-                        <li>
-                            <a href="https://mthuynh.github.io/todo/">
-                                <h3><u>To-do list</u></h3>
-                            </a>
-                            <p>A CRUD to-do list app created using ReactJS.</p>
-                        </li>
-                        <li>
-                            <a href="https://mthuynh.github.io/bart-schedule/">
-                                <h3><u>Bart Schedule</u></h3>
-                            </a>
-                            <p>An app to look up upcoming Bart trains based on specified location. Created using ReactJS, SASS and the BART API.</p>
-                        </li>
-                        <!--<li>
+		<!-- Projects Section -->
+		<section id="projects">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h2>Projects</h2>
+						<hr class="star-primary" />
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<ul>
+							<li>
+								<a href="https://mthuynh.github.io/todo/">
+									<h3><u>To-do list</u></h3>
+								</a>
+								<p>A CRUD to-do list app created using ReactJS.</p>
+							</li>
+							<li>
+								<a href="https://mthuynh.github.io/bart-schedule/">
+									<h3><u>Bart Schedule</u></h3>
+								</a>
+								<p>
+									An app to look up upcoming Bart trains based on specified
+									location. Created using ReactJS, SASS and the BART API.
+								</p>
+							</li>
+							<!--<li>
                             <a href="https://mthuynh.github.io/movies/">
                                 <h3><u>Movie search</u></h3>
                             </a>
                             <p>A Movie search app created using ReactJS, utilizing React Hooks and the OMDB API.</p>
                         </li>-->
-                    </ul>
-                    <br />
-                    <p>Visit my <a href="https://github.com/mthuynh/">GitHub</a> and <a href="https://codepen.io/mthuynh/">CodePen</a> to find my work in progress and random snippets.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+						</ul>
+						<br />
+						<p>
+							Visit my <a href="https://github.com/mthuynh/">GitHub</a> and
+							<a href="https://codepen.io/mthuynh/">CodePen</a> to find my work
+							in progress and random snippets.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    <!-- Experience Section -->
-    <section class="success" id="resume">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Experience</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <h3>Web Developer</h3>
-                    <h4>Facebook</h4>
-                    <p>Nov 2018-Present</p>
-                    <ul>
-                        <li>
-                            <p>Create product pages, components and site updates in HTML and CSS as part of the AR/VR Web E-commerce Team</p>
-                        </li>
-                        <li>
-                            <p>Collaborate with Design and Product Marketing Teams to assess front end development for Oculus, Facebook AI and Spark AR websites</p>
-                        </li>
-                        <li>
-                            <p>Create documentation of development process and provide support for CMS content authors</p>
-                        </li>
-                    </ul>
+		<!-- Experience Section -->
+		<section class="success" id="resume">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h2>Experience</h2>
+						<hr class="star-primary" />
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<h3>Web Developer</h3>
+						<h4>Facebook</h4>
+						<p>Nov 2018-Present</p>
+						<ul>
+							<li>
+								<p>
+									Create product pages, components and site updates in HTML and
+									CSS as part of the AR/VR Web E-commerce Team
+								</p>
+							</li>
+							<li>
+								<p>
+									Collaborate with Design and Product Marketing Teams to assess
+									front end development for Oculus, Facebook AI and Spark AR
+									websites
+								</p>
+							</li>
+							<li>
+								<p>
+									Create documentation of development process and provide
+									support for CMS content authors
+								</p>
+							</li>
+						</ul>
 
-                    <h3>Web Developer</h3>
-                    <h4>ART.COM</h4>
-                    <p>Oct 2015-November 2018</p>
-                    <ul>
-                        <li>
-                            <p>Create responsive landing pages and deploy marketing campaigns to production in HTML, CSS, JS across 22 localized domains as part of the Creative Team</p>
-                        </li>
-                        <li>
-                            <p>Collaborate with Design, Marketing and Engineering teams to determine technical specifications and turn Sketch mockups to code</p>
-                        </li>
-                        <li>
-                            <p>Create A/B tests in JavaScript through Optimizely to increase site conversion</p>
-                        </li>
-                    </ul>
+						<h3>Web Developer</h3>
+						<h4>ART.COM</h4>
+						<p>Oct 2015-November 2018</p>
+						<ul>
+							<li>
+								<p>
+									Create responsive landing pages and deploy marketing campaigns
+									to production in HTML, CSS, JS across 22 localized domains as
+									part of the Creative Team
+								</p>
+							</li>
+							<li>
+								<p>
+									Collaborate with Design, Marketing and Engineering teams to
+									determine technical specifications and turn Sketch mockups to
+									code
+								</p>
+							</li>
+							<li>
+								<p>
+									Create A/B tests in JavaScript through Optimizely to increase
+									site conversion
+								</p>
+							</li>
+						</ul>
 
-                    <h3>Jr. Web Developer</h3>
-                    <h4>University of San Francisco</h4>
-                    <p>July 2015-October 2015</p>
-                    <ul>
-                        <li>
-                            <p>Assist with website redesign and migration to Drupal CMS</p>
-                        </li>
-                        <li>
-                            <p>Create web pages based on brand guidelines and stakeholder input in HTML and CSS</p>
-                        </li>
-                        <li>
-                            <p>Partner with stakeholders and USF staff/faculty to provide technical support and improve usability of their websites</p>
-                        </li>
-                    </ul>
+						<h3>Jr. Web Developer</h3>
+						<h4>University of San Francisco</h4>
+						<p>July 2015-October 2015</p>
+						<ul>
+							<li>
+								<p>Assist with website redesign and migration to Drupal CMS</p>
+							</li>
+							<li>
+								<p>
+									Create web pages based on brand guidelines and stakeholder
+									input in HTML and CSS
+								</p>
+							</li>
+							<li>
+								<p>
+									Partner with stakeholders and USF staff/faculty to provide
+									technical support and improve usability of their websites
+								</p>
+							</li>
+						</ul>
 
-                    <h3>Jr. Web Developer</h3>
-                    <h4>Title Nine</h4>
-                    <p>May 2015-July 2015</p>
-                    <ul>
-                        <li>
-                            <p>Maintain and update landing pages and email marketing campaigns using CMS</p>
-                        </li>
-                        <li>
-                            <p>Test cross-browser, cross-device compatibility for functionality and improve web experience</p>
-                        </li>
-                        <li>
-                            <p>Utilize Adobe Photoshop and Illustrator to slice/optimize/export/publish product images</p>
-                        </li>
-                    </ul>
+						<h3>Jr. Web Developer</h3>
+						<h4>Title Nine</h4>
+						<p>May 2015-July 2015</p>
+						<ul>
+							<li>
+								<p>
+									Maintain and update landing pages and email marketing
+									campaigns using CMS
+								</p>
+							</li>
+							<li>
+								<p>
+									Test cross-browser, cross-device compatibility for
+									functionality and improve web experience
+								</p>
+							</li>
+							<li>
+								<p>
+									Utilize Adobe Photoshop and Illustrator to
+									slice/optimize/export/publish product images
+								</p>
+							</li>
+						</ul>
 
-                    <h3>Education</h3>
-                    <h4>University of California, Berkeley</h4>
-                    <p>Bachelor of Arts</p>
-                    <p>2009-2014</p>
-                </div>
-            </div>
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <a href="files/resumeMichaelHuynh.pdf" class="btn btn-lg btn-outline">
-                    <i class="fa fa-download"></i> Download Resume
-                </a>
-            </div>
-        </div>
-    </section>
+						<h3>Education</h3>
+						<h4>University of California, Berkeley</h4>
+						<p>Bachelor of Arts</p>
+						<p>2009-2014</p>
+					</div>
+				</div>
+				<div class="col-lg-8 col-lg-offset-2 text-center">
+					<a href="files/resumeMichaelHuynh.pdf" class="btn btn-lg btn-outline">
+						<i class="fa fa-download"></i> Download Resume
+					</a>
+				</div>
+			</div>
+		</section>
 
-    <!-- Skills Section -->
-    <section id="tech-skills">
-        <div class="container tech-skills ">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Skills</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
+		<!-- Skills Section -->
+		<section id="tech-skills">
+			<div class="container tech-skills">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h2>Skills</h2>
+						<hr class="star-primary" />
+					</div>
+				</div>
 
-            <div class="row">
-                <div class="tech-skill col-xs-12 col-lg-3 text-center">
-                    <div class="fa fa-html5 fa-3x"></div>
-                    <h3>HTML</h3>
-                    <p>Years of Experience: 5</p>
-                    <p>Responsive Web Design</p>
-                </div>
+				<div class="row">
+					<div class="tech-skill col-xs-12 col-lg-3 text-center">
+						<div class="fa fa-html5 fa-3x"></div>
+						<h3>HTML</h3>
+						<p>Years of Experience: 5</p>
+						<p>Responsive Web Design</p>
+					</div>
 
-                <div class="tech-skill col-xs-12 col-lg-3 text-center">
-                    <div class="fa fa-css3 fa-3x"></div>
-                    <h3>CSS</h3>
-                    <p>Years of Experience: 5</p>
-                    <p>Bootstrap, Sass, Flexbox, CSS Grid</p>
-                </div>
+					<div class="tech-skill col-xs-12 col-lg-3 text-center">
+						<div class="fa fa-css3 fa-3x"></div>
+						<h3>CSS</h3>
+						<p>Years of Experience: 5</p>
+						<p>Bootstrap, Sass, Flexbox, CSS Grid</p>
+					</div>
 
-                <div class="tech-skill col-xs-12 col-lg-3 text-center">
-                    <div class="fa fa-jsfiddle fa-3x"></div>
-                    <h3>JavaScript</h3>
-                    <p>Years of Experience: 5</p>
-                    <p>jQuery, ReactJS, NodeJS, GulpJS, HandlebarsJS, AJAX, JSON,</p>
-                </div>
+					<div class="tech-skill col-xs-12 col-lg-3 text-center">
+						<div class="fa fa-jsfiddle fa-3x"></div>
+						<h3>JavaScript</h3>
+						<p>Years of Experience: 5</p>
+						<p>jQuery, ReactJS, NodeJS, GulpJS, HandlebarsJS, AJAX, JSON,</p>
+					</div>
 
-                <div class="tech-skill col-xs-12 col-lg-3 text-center">
-                    <div class="fa fa-archive fa-3x"></div>
-                    <h3>Other Skills</h3>
-                    <p>Version Control, Git, CMS, ContentStack, Drupal, JIRA, Adobe Photoshop, Sketch, Figma, A/B Testing,
-                        Quality Assurace, Project Management, Localization, SEO, Website Performance, User Experience, Accessibility, APIs</p>
-                </div>
-            </div>
-        </div>
-    </section>
+					<div class="tech-skill col-xs-12 col-lg-3 text-center">
+						<div class="fa fa-archive fa-3x"></div>
+						<h3>Other Skills</h3>
+						<p>
+							Version Control, Git, CMS, ContentStack, Drupal, JIRA, Adobe
+							Photoshop, Sketch, Figma, A/B Testing, Quality Assurace, Project
+							Management, Localization, SEO, Website Performance, User
+							Experience, Accessibility, APIs
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About Me</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <h4>Getting Started</h4>
-                    <p>
-                        I delved into web development when I wanted to create a website for my friend's photography.
-                        Soon enough I was an intern
-                        for a printing company learning HTML &amp; CSS, relying heavily on tables to create my first
-                        website.
-                        The cycle of reading and practicing new techniques would continue and soon enough, I was making
-                        some
-                        pretty damn good looking pages (without tables).
-                    </p>
-                </div>
-                <div class="col-lg-4">
-                    <h4>Today</h4>
-                    <p>
-                        I continue to improve on my skills as a coder. During/after work I am looking for ways to
-                        improve my workflow and create
-                        clean, efficient code. Not only does it make me a better coder, but it also makes my company's
-                        code better
-                        as well. There is always something new to learn and why I love being a Web Developer playing
-                        catch-up.
-                    </p>
-                </div>
-                <div class="col-lg-4">
-                    <h4>Outside of coding, I am doing one of the following:</h4>
-                    <ul>
-                        <li>
-                            <p>Trying out new restaurants in the Bay Area (then posting it)</p>
-                        </li>
-                        <li>
-                            <p>Going to the gym (to work off the food)</p>
-                        </li>
-                        <li>
-                            <p>Playing LoL, SSB, NBA2K</p>
-                        </li>
-                        <li>
-                            <p>Chillin</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+		<!-- About Section -->
+		<section class="success" id="about">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h2>About Me</h2>
+						<hr class="star-primary" />
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4">
+						<h4>Getting Started</h4>
+						<p>
+							I delved into web development when I wanted to create a website
+							for my friend's photography. Soon enough I was an intern for a
+							printing company learning HTML &amp; CSS, relying heavily on
+							tables to create my first website. The cycle of reading and
+							practicing new techniques would continue and soon enough, I was
+							making some pretty damn good looking pages (without tables).
+						</p>
+					</div>
+					<div class="col-lg-4">
+						<h4>Today</h4>
+						<p>
+							I continue to improve on my skills as a coder. During/after work I
+							am looking for ways to improve my workflow and create clean,
+							efficient code. Not only does it make me a better coder, but it
+							also makes my company's code better as well. There is always
+							something new to learn and why I love being a Web Developer
+							playing catch-up.
+						</p>
+					</div>
+					<div class="col-lg-4">
+						<h4>Outside of coding, I am doing one of the following:</h4>
+						<ul>
+							<li>
+								<p>
+									Trying out new restaurants in the Bay Area (then posting it)
+								</p>
+							</li>
+							<li>
+								<p>Going to the gym (to work off the food)</p>
+							</li>
+							<li>
+								<p>Playing LoL, SSB, NBA2K</p>
+							</li>
+							<li>
+								<p>Chillin</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    <!-- Footer -->
-    <footer class="text-center" id="contact">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Michael Huynh</h3>
-                        <p><a href="tel:+15103818006">(510) 381-8006</a></p>
-                        <p><a href="mailto:michaelthuynh@gmail.com">michaelthuynh@gmail.com</a></p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Find Me!</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="https://github.com/mthuynh/" target="_blank" class="btn-social btn-outline"><i
-                                        class="fa fa-fw fa-github"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://codesandbox.io/u/mthuynh/" target="_blank"
-                                    class="btn-social btn-outline"><i class="fa fa-fw fa-code"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://codepen.io/mthuynh/" target="_blank" class="btn-social btn-outline"><i
-                                        class="fa fa-fw fa-codepen"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://linkedin.com/in/michaelthuynh/" target="_blank"
-                                    class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>About Me</h3>
-                        <p>I am a Web Developer from Oakland, CA</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; created in 2015
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+		<!-- Footer -->
+		<footer class="text-center" id="contact">
+			<div class="footer-above">
+				<div class="container">
+					<div class="row">
+						<div class="footer-col col-md-4">
+							<h3>Michael Huynh</h3>
+							<p><a href="tel:+15103818006">(510) 381-8006</a></p>
+							<p>
+								<a href="mailto:michaelthuynh@gmail.com"
+									>michaelthuynh@gmail.com</a
+								>
+							</p>
+						</div>
+						<div class="footer-col col-md-4">
+							<h3>Find Me!</h3>
+							<ul class="list-inline">
+								<li>
+									<a
+										href="https://github.com/mthuynh/"
+										target="_blank"
+										class="btn-social btn-outline"
+										><i class="fa fa-fw fa-github"></i
+									></a>
+								</li>
+								<li>
+									<a
+										href="https://codesandbox.io/u/mthuynh/"
+										target="_blank"
+										class="btn-social btn-outline"
+										><i class="fa fa-fw fa-code"></i
+									></a>
+								</li>
+								<li>
+									<a
+										href="https://codepen.io/mthuynh/"
+										target="_blank"
+										class="btn-social btn-outline"
+										><i class="fa fa-fw fa-codepen"></i
+									></a>
+								</li>
+								<li>
+									<a
+										href="https://linkedin.com/in/michaelthuynh/"
+										target="_blank"
+										class="btn-social btn-outline"
+										><i class="fa fa-fw fa-linkedin"></i
+									></a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer-col col-md-4">
+							<h3>About Me</h3>
+							<p>I am a Web Developer from Oakland, CA</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-below">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">Copyright &copy; created in 2015</div>
+					</div>
+				</div>
+			</div>
+		</footer>
 
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll visible-xs visble-sm">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
+		<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+		<div class="scroll-top page-scroll visible-xs visble-sm">
+			<a class="btn btn-primary" href="#page-top">
+				<i class="fa fa-chevron-up"></i>
+			</a>
+		</div>
 
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h3>Facebook for Developers</h3>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/dfc-home.jpg" class="img-responsive img-centered"
-                                alt="Facebook for Developers">
-                            <p>The main website for <a href="https://developers.facebook.com/" target="_blank">Facebook
-                                    for Developers</a>, a
-                                website dedicated to Facebook for Developers community. I am the Web Developer who
-                                has helped to maintain updates to the homepage, product page and creation of blog posts.
-                            </p>
-                            <ul class="list-inline item-details">
-                                <li>Sites:
-                                    <strong><a href="https://developers.facebook.com/" target="_blank">Homepage</a>, <a
-                                            href="https://developers.facebook.com/products/messenger/"
-                                            target="_blank">Messenger for Developers</a>,
-                                        <a href="https://developers.facebook.com/blog/" target="_blank">News for
-                                            Developers</a>
-                                    </strong>
-                                </li>
-                                <li>Technologies:
-                                    <strong>HTML, CSS, XML, CMS</strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i
-                                    class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h3>Spark AR Studio</h3>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/spark-home.jpg" class="img-responsive img-centered"
-                                alt="Spark AR Studio - Facebook">
-                            <p>The main website for <a href="https://sparkar.facebook.com/ar-studio/"
-                                    target="_blank">Spark AR Studio</a>, a
-                                website dedicated to the Spark AR developer community. I am the Web Developer who
-                                has helped develop the homepage and various landing pages including a site refresh.</p>
-                            <ul class="list-inline item-details">
-                                <li>Sites:
-                                    <strong><a href="https://sparkar.facebook.com/ar-studio/"
-                                            target="_blank">Homepage</a>, <a
-                                            href="https://sparkar.facebook.com/ar-studio/features/"
-                                            target="_blank">Features Page</a>,
-                                        <a href="https://sparkar.facebook.com/ar-studio/download/"
-                                            target="_blank">Download Page</a>
-                                    </strong>
-                                </li>
-                                <li>Technologies:
-                                    <strong>HTML, CSS, XML, CMS</strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i
-                                    class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h3>Art.com</h3>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/art-home.jpg" class="img-responsive img-centered" alt="Art.com">
-                            <p>The main website for <a href="https://www.art.com/" target="_blank">Art.com</a>, an
-                                ecommerce business for art and home decor in the Bay Area. I am the Web Developer who
-                                has helped develop the homepage and various landing pages for several marketing
-                                campaigns, and most notably a rebrand.</p>
-                            <ul class="list-inline item-details">
-                                <li>Sites:
-                                    <strong><a href="https://www.art.com/" target="_blank">Homepage</a>, <a
-                                            href="https://www.art.com/~/shop-by-room/" target="_blank">Shop by Room</a>,
-                                        <a href="https://www.art.com/framemyphotos/" target="_blank">Frame My Photos</a>
-                                    </strong>
-                                </li>
-                                <li>Technologies:
-                                    <strong>HTML, CSS, JavaScript, jQuery, AJAX, ReactJS</strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i
-                                    class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h3>WorkspaceArt</h3>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/wac-home.jpg" class="img-responsive img-centered"
-                                alt="Workspaceart">
-                            <p>The main website for Art.com's B2B division, <a href="https://www.workspaceart.com/"
-                                    target="_blank">Workspaceart</a>. I manage updates to the homepage and creation of
-                                landing pages.</p>
-                            <ul class="list-inline item-details">
-                                <li>Sites:
-                                    <strong><a href="https://www.workspaceart.com/" target="_blank">Homepage</a>, <a
-                                            href="https://www.workspaceart.com/ways-to-shop/hotels/"
-                                            target="_blank">Ways
-                                            to Shop - Hotels</a>, <a
-                                            href="https://www.workspaceart.com/putting-art-to-work-in-business/"
-                                            target="_blank">Putting Art to Work</a>
-                                    </strong>
-                                </li>
-                                <li>Technologies:
-                                    <strong>HTML, CSS, JavaScript, jQuery</strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i
-                                    class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h3>USF</h3>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/usf-home.jpg" class="img-responsive img-centered" alt="USF">
-                            <p>The main website for the <a href="https://www.usfca.edu/" target="_blank">University of
-                                    San Francisco</a>. I was the Web Specialist who helped build the homepage and
-                                various landing pages using Drupal CMS.</p>
-                            <ul class="list-inline item-details">
-                                <li>Sites:
-                                    <strong>
-                                        <a href="https://www.usfca.edu/" target="_blank">Homepage</a>, <a
-                                            href="https://www.usfca.edu/calendar/" target="_blank">Calendar</a>
-                                    </strong>
-                                </li>
-                                <li>Technologies:
-                                    <strong>HTML, CSS</strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal">
-                                <i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h3>Title Nine</h3>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/titlenine-home.jpg" class="img-responsive img-centered"
-                                alt="Title Nine">
-                            <p>The main website for the <a href="https://www.titlenine.com/" target="_blank">Title
-                                    Nine</a>. I was the Web Producer who helped maintain the homepage and
-                                update various product pages using Market Live.</p>
-                            <ul class="list-inline item-details">
-                                <li>Sites:
-                                    <strong>
-                                        <a href="https://www.titlenine.com/" target="_blank">Homepage</a>
-                                    </strong>
-                                </li>
-                                <li>Technologies:
-                                    <strong>HTML, CSS</strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal">
-                                <i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+		<!-- Portfolio Modals -->
+		<div
+			class="portfolio-modal modal fade"
+			id="portfolioModalOculus"
+			tabindex="-1"
+			role="dialog"
+			aria-hidden="true"
+		>
+			<div class="modal-content">
+				<div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl"></div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 col-lg-offset-2">
+							<div class="modal-body">
+								<h3>Oculus</h3>
+								<hr class="star-primary" />
+								<img
+									src="img/portfolio/oculus-home.jpg"
+									class="img-responsive img-centered"
+									alt="Art.com"
+								/>
+								<p>
+									The main website for
+									<a href="https://www.oculus.com/" target="_blank">Oculus</a>,
+									a brand of Facebook producing virtual reality headsets. I
+									worked alongside Designers and PMMs to develop various
+									marketing pages such as the homepage, gaming pages, dedicated
+									Quest 2 accessory pages and the Oculus for Business page.
+								</p>
+								<ul class="list-inline item-details">
+									<li>
+										Sites:
+										<strong
+											><a href="https://www.oculus.com/" target="_blank"
+												>Homepage</a
+											>,
+											<a href="https://business.oculus.com/" target="_blank"
+												>Oculus for Business</a
+											>,
+											<a href="https://www.oculus.com/quest-2/" target="_blank"
+												>Quest 2 PDP</a
+											>,
+											<a
+												href="https://www.oculus.com/star-wars-tales-from-the-galaxys-edge"
+												target="_blank"
+												>Star Wars</a
+											>
+										</strong>
+									</li>
+									<li>
+										Technologies:
+										<strong>HTML, CSS, CMS</strong>
+									</li>
+								</ul>
+								<button
+									type="button"
+									class="btn btn-default"
+									data-dismiss="modal"
+								>
+									<i class="fa fa-times"></i> Close
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div
+			class="portfolio-modal modal fade"
+			id="portfolioModalFbDev"
+			tabindex="-1"
+			role="dialog"
+			aria-hidden="true"
+		>
+			<div class="modal-content">
+				<div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl"></div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 col-lg-offset-2">
+							<div class="modal-body">
+								<h3>Facebook for Developers</h3>
+								<hr class="star-primary" />
+								<img
+									src="img/portfolio/dfc-home.jpg"
+									class="img-responsive img-centered"
+									alt="Facebook for Developers"
+								/>
+								<p>
+									The main website for
+									<a href="https://developers.facebook.com/" target="_blank"
+										>Facebook for Developers</a
+									>, a website dedicated to Facebook for Developers community. I
+									am the Web Developer who has helped to maintain updates to the
+									homepage, product page and creation of blog posts.
+								</p>
+								<ul class="list-inline item-details">
+									<li>
+										Sites:
+										<strong
+											><a
+												href="https://developers.facebook.com/"
+												target="_blank"
+												>Homepage</a
+											>,
+											<a
+												href="https://developers.facebook.com/products/messenger/"
+												target="_blank"
+												>Messenger for Developers</a
+											>,
+											<a
+												href="https://developers.facebook.com/blog/"
+												target="_blank"
+												>News for Developers</a
+											>
+										</strong>
+									</li>
+									<li>
+										Technologies:
+										<strong>HTML, CSS, CMS</strong>
+									</li>
+								</ul>
+								<button
+									type="button"
+									class="btn btn-default"
+									data-dismiss="modal"
+								>
+									<i class="fa fa-times"></i> Close
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div
+			class="portfolio-modal modal fade"
+			id="portfolioModalSparkAr"
+			tabindex="-1"
+			role="dialog"
+			aria-hidden="true"
+		>
+			<div class="modal-content">
+				<div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl"></div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 col-lg-offset-2">
+							<div class="modal-body">
+								<h3>Spark AR Studio</h3>
+								<hr class="star-primary" />
+								<img
+									src="img/portfolio/spark-home.jpg"
+									class="img-responsive img-centered"
+									alt="Spark AR Studio - Facebook"
+								/>
+								<p>
+									The main website for
+									<a
+										href="https://sparkar.facebook.com/ar-studio/"
+										target="_blank"
+										>Spark AR Studio</a
+									>, a website dedicated to the Spark AR developer community. I
+									am the Web Developer who has helped develop the homepage and
+									various landing pages including a site refresh.
+								</p>
+								<ul class="list-inline item-details">
+									<li>
+										Sites:
+										<strong
+											><a
+												href="https://sparkar.facebook.com/ar-studio/"
+												target="_blank"
+												>Homepage</a
+											>,
+											<a
+												href="https://sparkar.facebook.com/blog/"
+												target="_blank"
+												>Blog</a
+											>,
+											<a
+												href="https://sparkar.facebook.com/ar-studio/learn/"
+												target="_blank"
+												>Learn Page</a
+											>
+										</strong>
+									</li>
+									<li>
+										Technologies:
+										<strong>HTML, CSS, CMS</strong>
+									</li>
+								</ul>
+								<button
+									type="button"
+									class="btn btn-default"
+									data-dismiss="modal"
+								>
+									<i class="fa fa-times"></i> Close
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div
+			class="portfolio-modal modal fade"
+			id="portfolioModalFbAi"
+			tabindex="-1"
+			role="dialog"
+			aria-hidden="true"
+		>
+			<div class="modal-content">
+				<div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl"></div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 col-lg-offset-2">
+							<div class="modal-body">
+								<h3>Facebook AI</h3>
+								<hr class="star-primary" />
+								<img
+									src="img/portfolio/fbai-home.jpg"
+									class="img-responsive img-centered"
+									alt="Art.com"
+								/>
+								<p>
+									The main website for
+									<a href="https://ai.facebook.com/" target="_blank"
+										>Facebook AI</a
+									>, a website dedicated to the Facebook AI community. I am the
+									Web Developer who has helped to maintain updates to the
+									homepage and creation of blog posts.
+								</p>
+								<ul class="list-inline item-details">
+									<li>
+										Sites:
+										<strong
+											><a href="https://ai.facebook.com/" target="_blank"
+												>Homepage</a
+											>,
+											<a href="https://ai.facebook.com/blog/" target="_blank"
+												>Blog</a
+											>,
+											<a href="https://ai.facebook.com/tools/" target="_blank"
+												>Tools</a
+											>
+										</strong>
+									</li>
+									<li>
+										Technologies:
+										<strong>HTML, CSS, CMS</strong>
+									</li>
+								</ul>
+								<button
+									type="button"
+									class="btn btn-default"
+									data-dismiss="modal"
+								>
+									<i class="fa fa-times"></i> Close
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div
+			class="portfolio-modal modal fade"
+			id="portfolioModalArt"
+			tabindex="-1"
+			role="dialog"
+			aria-hidden="true"
+		>
+			<div class="modal-content">
+				<div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl"></div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 col-lg-offset-2">
+							<div class="modal-body">
+								<h3>Art.com</h3>
+								<hr class="star-primary" />
+								<img
+									src="img/portfolio/art-home.jpg"
+									class="img-responsive img-centered"
+									alt="Art.com"
+								/>
+								<p>
+									The main website for
+									<a href="https://www.art.com/" target="_blank">Art.com</a>, an
+									ecommerce business for art and home decor in the Bay Area. I
+									am the Web Developer who has helped develop the homepage and
+									various landing pages for several marketing campaigns, and
+									most notably a rebrand.
+								</p>
+								<ul class="list-inline item-details">
+									<li>
+										Sites:
+										<strong
+											><a href="https://www.art.com/" target="_blank"
+												>Homepage</a
+											>,
+											<a
+												href="https://www.art.com/~/shop-by-room/"
+												target="_blank"
+												>Shop by Room</a
+											>,
+											<a
+												href="https://www.art.com/framemyphotos/"
+												target="_blank"
+												>Frame My Photos</a
+											>,
+											<a href="https://www.art.com/gift-guide/" target="_blank">
+												Holiday Gift Guide</a
+											>,
+											<a href="https://www.art.com/affirm/" target="_blank">
+												Affirm</a
+											>
+										</strong>
+									</li>
+									<li>
+										Technologies:
+										<strong
+											>HTML, CSS, JavaScript, jQuery, AJAX, ReactJS</strong
+										>
+									</li>
+								</ul>
+								<button
+									type="button"
+									class="btn btn-default"
+									data-dismiss="modal"
+								>
+									<i class="fa fa-times"></i> Close
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div
+			class="portfolio-modal modal fade"
+			id="portfolioModalWac"
+			tabindex="-1"
+			role="dialog"
+			aria-hidden="true"
+		>
+			<div class="modal-content">
+				<div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl"></div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 col-lg-offset-2">
+							<div class="modal-body">
+								<h3>WorkspaceArt</h3>
+								<hr class="star-primary" />
+								<img
+									src="img/portfolio/wac-home.jpg"
+									class="img-responsive img-centered"
+									alt="Workspaceart"
+								/>
+								<p>
+									The main website for Art.com's B2B division,
+									<a href="https://www.workspaceart.com/" target="_blank"
+										>Workspaceart</a
+									>. I manage updates to the homepage and creation of landing
+									pages.
+								</p>
+								<ul class="list-inline item-details">
+									<li>
+										Sites:
+										<strong
+											><a href="https://www.workspaceart.com/" target="_blank"
+												>Homepage</a
+											>,
+											<a
+												href="https://www.workspaceart.com/ways-to-shop/hotels/"
+												target="_blank"
+												>Ways to Shop - Hotels</a
+											>,
+											<a
+												href="https://www.workspaceart.com/putting-art-to-work-in-business/"
+												target="_blank"
+												>Putting Art to Work</a
+											>
+										</strong>
+									</li>
+									<li>
+										Technologies:
+										<strong>HTML, CSS, JavaScript, jQuery</strong>
+									</li>
+								</ul>
+								<button
+									type="button"
+									class="btn btn-default"
+									data-dismiss="modal"
+								>
+									<i class="fa fa-times"></i> Close
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div
+			class="portfolio-modal modal fade"
+			id="portfolioModalApc"
+			tabindex="-1"
+			role="dialog"
+			aria-hidden="true"
+		>
+			<div class="modal-content">
+				<div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl"></div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 col-lg-offset-2">
+							<div class="modal-body">
+								<h3>AllPosters</h3>
+								<hr class="star-primary" />
+								<img
+									src="img/portfolio/apc-home.jpg"
+									class="img-responsive img-centered"
+									alt="Art.com"
+								/>
+								<p>
+									The main website for
+									<a href="https://www.allposters.com/" target="_blank"
+										>AllPosters</a
+									>, an ecommerce business for posters, framed art and canvas in
+									the Bay Area. I am the Web Developer who has helped develop
+									the homepage and landing pages for several marketing
+									campaigns.
+								</p>
+								<ul class="list-inline item-details">
+									<li>
+										Sites:
+										<strong
+											><a href="https://www.allposters.com/" target="_blank"
+												>Homepage</a
+											>,
+											<a
+												href="https://www.allposters.com/myphotos/"
+												target="_blank"
+												>MyPhotos</a
+											>,
+											<a
+												href="https://www.allposters.com/~/b2b/sales-program-to-businesses"
+												target="_blank"
+												>B2B Program</a
+											>,
+											<a
+												href="https://www.allposters.com/help/"
+												target="_blank"
+											>
+												Help Page</a
+											>
+										</strong>
+									</li>
+									<li>
+										Technologies:
+										<strong
+											>HTML, CSS, JavaScript, jQuery, AJAX, ReactJS</strong
+										>
+									</li>
+								</ul>
+								<button
+									type="button"
+									class="btn btn-default"
+									data-dismiss="modal"
+								>
+									<i class="fa fa-times"></i> Close
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div
+			class="portfolio-modal modal fade"
+			id="portfolioModalUsf"
+			tabindex="-1"
+			role="dialog"
+			aria-hidden="true"
+		>
+			<div class="modal-content">
+				<div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl"></div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 col-lg-offset-2">
+							<div class="modal-body">
+								<h3>USF</h3>
+								<hr class="star-primary" />
+								<img
+									src="img/portfolio/usf-home.jpg"
+									class="img-responsive img-centered"
+									alt="USF"
+								/>
+								<p>
+									The main website for the
+									<a href="https://www.usfca.edu/" target="_blank"
+										>University of San Francisco</a
+									>. I was the Web Specialist who helped build the homepage and
+									various landing pages using Drupal CMS.
+								</p>
+								<ul class="list-inline item-details">
+									<li>
+										Sites:
+										<strong>
+											<a href="https://www.usfca.edu/" target="_blank"
+												>Homepage</a
+											>,
+											<a href="https://www.usfca.edu/calendar/" target="_blank"
+												>Calendar</a
+											>
+										</strong>
+									</li>
+									<li>
+										Technologies:
+										<strong>HTML, CSS</strong>
+									</li>
+								</ul>
+								<button
+									type="button"
+									class="btn btn-default"
+									data-dismiss="modal"
+								>
+									<i class="fa fa-times"></i> Close
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div
+			class="portfolio-modal modal fade"
+			id="portfolioModalTitleNine"
+			tabindex="-1"
+			role="dialog"
+			aria-hidden="true"
+		>
+			<div class="modal-content">
+				<div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl"></div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 col-lg-offset-2">
+							<div class="modal-body">
+								<h3>Title Nine</h3>
+								<hr class="star-primary" />
+								<img
+									src="img/portfolio/titlenine-home.jpg"
+									class="img-responsive img-centered"
+									alt="Title Nine"
+								/>
+								<p>
+									The main website for the
+									<a href="https://www.titlenine.com/" target="_blank"
+										>Title Nine</a
+									>. I was the Web Producer who helped maintain the homepage and
+									update various product pages using Market Live.
+								</p>
+								<ul class="list-inline item-details">
+									<li>
+										Sites:
+										<strong>
+											<a href="https://www.titlenine.com/" target="_blank"
+												>Homepage</a
+											>
+										</strong>
+									</li>
+									<li>
+										Technologies:
+										<strong>HTML, CSS</strong>
+									</li>
+								</ul>
+								<button
+									type="button"
+									class="btn btn-default"
+									data-dismiss="modal"
+								>
+									<i class="fa fa-times"></i> Close
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- jQuery -->
+		<script src="js/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.js"></script>
+		<!-- Bootstrap Core JavaScript -->
+		<script src="js/bootstrap.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
+		<!-- Plugin JavaScript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/cbpAnimatedHeader.js"></script>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+		<!-- Contact Form JavaScript -->
+		<script src="js/jqBootstrapValidation.js"></script>
+		<script src="js/contact_me.js"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="js/script.js"></script>
-
-</body>
-
+		<!-- Custom Theme JavaScript -->
+		<script src="js/script.js"></script>
+	</body>
 </html>
